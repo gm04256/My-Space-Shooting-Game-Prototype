@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4EF7C28A-AA85-4231-AC1F-37ECEB6CD36E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>My Space Shooting Game Prototype</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BD84896E-DB93-4A86-BD62-F2E0093BF1E0</key>
+		<string>https://github.com/gm04256/My-Space-Shooting-Game-Prototype.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>My Space Shooting Game Prototype/My Space Shooting Game Prototype.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BD84896E-DB93-4A86-BD62-F2E0093BF1E0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gm04256/My-Space-Shooting-Game-Prototype.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BD84896E-DB93-4A86-BD62-F2E0093BF1E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD84896E-DB93-4A86-BD62-F2E0093BF1E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>My Space Shooting Game Prototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBDA101196A9D9800E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA100196A9D9800E3DAF5 /* Foundation.framework */; };
+		FCBDA103196A9D9800E3DAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA102196A9D9800E3DAF5 /* CoreGraphics.framework */; };
+		FCBDA105196A9D9800E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA104196A9D9800E3DAF5 /* UIKit.framework */; };
+		FCBDA107196A9D9800E3DAF5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA106196A9D9800E3DAF5 /* SpriteKit.framework */; };
+		FCBDA10D196A9D9800E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA10B196A9D9800E3DAF5 /* InfoPlist.strings */; };
+		FCBDA10F196A9D9800E3DAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA10E196A9D9800E3DAF5 /* main.m */; };
+		FCBDA113196A9D9800E3DAF5 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA112196A9D9800E3DAF5 /* BGMAppDelegate.m */; };
+		FCBDA116196A9D9800E3DAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA114196A9D9800E3DAF5 /* Main.storyboard */; };
+		FCBDA119196A9D9800E3DAF5 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA118196A9D9800E3DAF5 /* BGMViewController.m */; };
+		FCBDA11C196A9D9800E3DAF5 /* BGMMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA11B196A9D9800E3DAF5 /* BGMMyScene.m */; };
+		FCBDA11E196A9D9800E3DAF5 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */; };
+		FCBDA120196A9D9800E3DAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */; };
+		FCBDA127196A9D9800E3DAF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA126196A9D9800E3DAF5 /* XCTest.framework */; };
+		FCBDA128196A9D9800E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA100196A9D9800E3DAF5 /* Foundation.framework */; };
+		FCBDA129196A9D9800E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA104196A9D9800E3DAF5 /* UIKit.framework */; };
+		FCBDA131196A9D9800E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA12F196A9D9800E3DAF5 /* InfoPlist.strings */; };
+		FCBDA133196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA132196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCBDA12A196A9D9800E3DAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBDA0F5196A9D9700E3DAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBDA0FC196A9D9800E3DAF5;
+			remoteInfo = "My Space Shooting Game Prototype";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCBDA0FD196A9D9800E3DAF5 /* My Space Shooting Game Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Space Shooting Game Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA100196A9D9800E3DAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCBDA102196A9D9800E3DAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCBDA104196A9D9800E3DAF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCBDA106196A9D9800E3DAF5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FCBDA10A196A9D9800E3DAF5 /* My Space Shooting Game Prototype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Space Shooting Game Prototype-Info.plist"; sourceTree = "<group>"; };
+		FCBDA10C196A9D9800E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDA10E196A9D9800E3DAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCBDA110196A9D9800E3DAF5 /* My Space Shooting Game Prototype-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Space Shooting Game Prototype-Prefix.pch"; sourceTree = "<group>"; };
+		FCBDA111196A9D9800E3DAF5 /* BGMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMAppDelegate.h; sourceTree = "<group>"; };
+		FCBDA112196A9D9800E3DAF5 /* BGMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMAppDelegate.m; sourceTree = "<group>"; };
+		FCBDA115196A9D9800E3DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCBDA117196A9D9800E3DAF5 /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
+		FCBDA118196A9D9800E3DAF5 /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
+		FCBDA11A196A9D9800E3DAF5 /* BGMMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMMyScene.h; sourceTree = "<group>"; };
+		FCBDA11B196A9D9800E3DAF5 /* BGMMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMMyScene.m; sourceTree = "<group>"; };
+		FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCBDA125196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Space Shooting Game PrototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA126196A9D9800E3DAF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCBDA12E196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Space Shooting Game PrototypeTests-Info.plist"; sourceTree = "<group>"; };
+		FCBDA130196A9D9800E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDA132196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Space_Shooting_Game_PrototypeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBDA0FA196A9D9800E3DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA103196A9D9800E3DAF5 /* CoreGraphics.framework in Frameworks */,
+				FCBDA105196A9D9800E3DAF5 /* UIKit.framework in Frameworks */,
+				FCBDA107196A9D9800E3DAF5 /* SpriteKit.framework in Frameworks */,
+				FCBDA101196A9D9800E3DAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA122196A9D9800E3DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA127196A9D9800E3DAF5 /* XCTest.framework in Frameworks */,
+				FCBDA129196A9D9800E3DAF5 /* UIKit.framework in Frameworks */,
+				FCBDA128196A9D9800E3DAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBDA0F4196A9D9700E3DAF5 = {
+			isa = PBXGroup;
+			children = (
+				FCBDA108196A9D9800E3DAF5 /* My Space Shooting Game Prototype */,
+				FCBDA12C196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests */,
+				FCBDA0FF196A9D9800E3DAF5 /* Frameworks */,
+				FCBDA0FE196A9D9800E3DAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBDA0FE196A9D9800E3DAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0FD196A9D9800E3DAF5 /* My Space Shooting Game Prototype.app */,
+				FCBDA125196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBDA0FF196A9D9800E3DAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA100196A9D9800E3DAF5 /* Foundation.framework */,
+				FCBDA102196A9D9800E3DAF5 /* CoreGraphics.framework */,
+				FCBDA104196A9D9800E3DAF5 /* UIKit.framework */,
+				FCBDA106196A9D9800E3DAF5 /* SpriteKit.framework */,
+				FCBDA126196A9D9800E3DAF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCBDA108196A9D9800E3DAF5 /* My Space Shooting Game Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA111196A9D9800E3DAF5 /* BGMAppDelegate.h */,
+				FCBDA112196A9D9800E3DAF5 /* BGMAppDelegate.m */,
+				FCBDA114196A9D9800E3DAF5 /* Main.storyboard */,
+				FCBDA117196A9D9800E3DAF5 /* BGMViewController.h */,
+				FCBDA118196A9D9800E3DAF5 /* BGMViewController.m */,
+				FCBDA11A196A9D9800E3DAF5 /* BGMMyScene.h */,
+				FCBDA11B196A9D9800E3DAF5 /* BGMMyScene.m */,
+				FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */,
+				FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */,
+				FCBDA109196A9D9800E3DAF5 /* Supporting Files */,
+			);
+			path = "My Space Shooting Game Prototype";
+			sourceTree = "<group>";
+		};
+		FCBDA109196A9D9800E3DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA10A196A9D9800E3DAF5 /* My Space Shooting Game Prototype-Info.plist */,
+				FCBDA10B196A9D9800E3DAF5 /* InfoPlist.strings */,
+				FCBDA10E196A9D9800E3DAF5 /* main.m */,
+				FCBDA110196A9D9800E3DAF5 /* My Space Shooting Game Prototype-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCBDA12C196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA132196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m */,
+				FCBDA12D196A9D9800E3DAF5 /* Supporting Files */,
+			);
+			path = "My Space Shooting Game PrototypeTests";
+			sourceTree = "<group>";
+		};
+		FCBDA12D196A9D9800E3DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA12E196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests-Info.plist */,
+				FCBDA12F196A9D9800E3DAF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBDA0FC196A9D9800E3DAF5 /* My Space Shooting Game Prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA136196A9D9800E3DAF5 /* Build configuration list for PBXNativeTarget "My Space Shooting Game Prototype" */;
+			buildPhases = (
+				FCBDA0F9196A9D9800E3DAF5 /* Sources */,
+				FCBDA0FA196A9D9800E3DAF5 /* Frameworks */,
+				FCBDA0FB196A9D9800E3DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Space Shooting Game Prototype";
+			productName = "My Space Shooting Game Prototype";
+			productReference = FCBDA0FD196A9D9800E3DAF5 /* My Space Shooting Game Prototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCBDA124196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA139196A9D9800E3DAF5 /* Build configuration list for PBXNativeTarget "My Space Shooting Game PrototypeTests" */;
+			buildPhases = (
+				FCBDA121196A9D9800E3DAF5 /* Sources */,
+				FCBDA122196A9D9800E3DAF5 /* Frameworks */,
+				FCBDA123196A9D9800E3DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBDA12B196A9D9800E3DAF5 /* PBXTargetDependency */,
+			);
+			name = "My Space Shooting Game PrototypeTests";
+			productName = "My Space Shooting Game PrototypeTests";
+			productReference = FCBDA125196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBDA0F5196A9D9700E3DAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BGM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "馬 岩";
+				TargetAttributes = {
+					FCBDA124196A9D9800E3DAF5 = {
+						TestTargetID = FCBDA0FC196A9D9800E3DAF5;
+					};
+				};
+			};
+			buildConfigurationList = FCBDA0F8196A9D9700E3DAF5 /* Build configuration list for PBXProject "My Space Shooting Game Prototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBDA0F4196A9D9700E3DAF5;
+			productRefGroup = FCBDA0FE196A9D9800E3DAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBDA0FC196A9D9800E3DAF5 /* My Space Shooting Game Prototype */,
+				FCBDA124196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBDA0FB196A9D9800E3DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA10D196A9D9800E3DAF5 /* InfoPlist.strings in Resources */,
+				FCBDA120196A9D9800E3DAF5 /* Images.xcassets in Resources */,
+				FCBDA11E196A9D9800E3DAF5 /* Spaceship.png in Resources */,
+				FCBDA116196A9D9800E3DAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA123196A9D9800E3DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA131196A9D9800E3DAF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBDA0F9196A9D9800E3DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA10F196A9D9800E3DAF5 /* main.m in Sources */,
+				FCBDA11C196A9D9800E3DAF5 /* BGMMyScene.m in Sources */,
+				FCBDA113196A9D9800E3DAF5 /* BGMAppDelegate.m in Sources */,
+				FCBDA119196A9D9800E3DAF5 /* BGMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA121196A9D9800E3DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA133196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBDA12B196A9D9800E3DAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBDA0FC196A9D9800E3DAF5 /* My Space Shooting Game Prototype */;
+			targetProxy = FCBDA12A196A9D9800E3DAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCBDA10B196A9D9800E3DAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA10C196A9D9800E3DAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCBDA114196A9D9800E3DAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA115196A9D9800E3DAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCBDA12F196A9D9800E3DAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA130196A9D9800E3DAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBDA134196A9D9800E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCBDA135196A9D9800E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBDA137196A9D9800E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Space Shooting Game Prototype/My Space Shooting Game Prototype-Prefix.pch";
+				INFOPLIST_FILE = "My Space Shooting Game Prototype/My Space Shooting Game Prototype-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCBDA138196A9D9800E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Space Shooting Game Prototype/My Space Shooting Game Prototype-Prefix.pch";
+				INFOPLIST_FILE = "My Space Shooting Game Prototype/My Space Shooting Game Prototype-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCBDA13A196A9D9800E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Space Shooting Game Prototype.app/My Space Shooting Game Prototype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Space Shooting Game Prototype/My Space Shooting Game Prototype-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My Space Shooting Game PrototypeTests/My Space Shooting Game PrototypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCBDA13B196A9D9800E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Space Shooting Game Prototype.app/My Space Shooting Game Prototype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Space Shooting Game Prototype/My Space Shooting Game Prototype-Prefix.pch";
+				INFOPLIST_FILE = "My Space Shooting Game PrototypeTests/My Space Shooting Game PrototypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBDA0F8196A9D9700E3DAF5 /* Build configuration list for PBXProject "My Space Shooting Game Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA134196A9D9800E3DAF5 /* Debug */,
+				FCBDA135196A9D9800E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA136196A9D9800E3DAF5 /* Build configuration list for PBXNativeTarget "My Space Shooting Game Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA137196A9D9800E3DAF5 /* Debug */,
+				FCBDA138196A9D9800E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBDA139196A9D9800E3DAF5 /* Build configuration list for PBXNativeTarget "My Space Shooting Game PrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA13A196A9D9800E3DAF5 /* Debug */,
+				FCBDA13B196A9D9800E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBDA0F5196A9D9700E3DAF5 /* Project object */;
+}

@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface BGMMyScene : SKScene
+@interface BGMTitleScene : SKScene
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7198FD196B8AA0001F2F3B /* BGMPlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */; };
+		FC719900196BC3D8001F2F3B /* BGMPlayerBulletNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7198FF196BC3D8001F2F3B /* BGMPlayerBulletNode.m */; };
+		FC719906196BE558001F2F3B /* BGMEnemyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC719905196BE558001F2F3B /* BGMEnemyNode.m */; };
 		FCBDA101196A9D9800E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA100196A9D9800E3DAF5 /* Foundation.framework */; };
 		FCBDA103196A9D9800E3DAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA102196A9D9800E3DAF5 /* CoreGraphics.framework */; };
 		FCBDA105196A9D9800E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA104196A9D9800E3DAF5 /* UIKit.framework */; };
@@ -16,7 +19,7 @@
 		FCBDA113196A9D9800E3DAF5 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA112196A9D9800E3DAF5 /* BGMAppDelegate.m */; };
 		FCBDA116196A9D9800E3DAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA114196A9D9800E3DAF5 /* Main.storyboard */; };
 		FCBDA119196A9D9800E3DAF5 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA118196A9D9800E3DAF5 /* BGMViewController.m */; };
-		FCBDA11C196A9D9800E3DAF5 /* BGMMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA11B196A9D9800E3DAF5 /* BGMMyScene.m */; };
+		FCBDA11C196A9D9800E3DAF5 /* BGMTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA11B196A9D9800E3DAF5 /* BGMTitleScene.m */; };
 		FCBDA11E196A9D9800E3DAF5 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */; };
 		FCBDA120196A9D9800E3DAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */; };
 		FCBDA127196A9D9800E3DAF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA126196A9D9800E3DAF5 /* XCTest.framework */; };
@@ -24,6 +27,7 @@
 		FCBDA129196A9D9800E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA104196A9D9800E3DAF5 /* UIKit.framework */; };
 		FCBDA131196A9D9800E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA12F196A9D9800E3DAF5 /* InfoPlist.strings */; };
 		FCBDA133196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA132196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m */; };
+		FCBDA13E196AA71200E3DAF5 /* BGMGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA13D196AA71200E3DAF5 /* BGMGameScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC7198FB196B8AA0001F2F3B /* BGMPlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerNode.h; sourceTree = "<group>"; };
+		FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMPlayerNode.m; sourceTree = "<group>"; };
+		FC7198FE196BC3D8001F2F3B /* BGMPlayerBulletNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerBulletNode.h; sourceTree = "<group>"; };
+		FC7198FF196BC3D8001F2F3B /* BGMPlayerBulletNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMPlayerBulletNode.m; sourceTree = "<group>"; };
+		FC719903196BD2F0001F2F3B /* BGMPhysicsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPhysicsCategory.h; sourceTree = "<group>"; };
+		FC719904196BE558001F2F3B /* BGMEnemyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMEnemyNode.h; sourceTree = "<group>"; };
+		FC719905196BE558001F2F3B /* BGMEnemyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMEnemyNode.m; sourceTree = "<group>"; };
 		FCBDA0FD196A9D9800E3DAF5 /* My Space Shooting Game Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Space Shooting Game Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBDA100196A9D9800E3DAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCBDA102196A9D9800E3DAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +62,8 @@
 		FCBDA115196A9D9800E3DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCBDA117196A9D9800E3DAF5 /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
 		FCBDA118196A9D9800E3DAF5 /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
-		FCBDA11A196A9D9800E3DAF5 /* BGMMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMMyScene.h; sourceTree = "<group>"; };
-		FCBDA11B196A9D9800E3DAF5 /* BGMMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMMyScene.m; sourceTree = "<group>"; };
+		FCBDA11A196A9D9800E3DAF5 /* BGMTitleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMTitleScene.h; sourceTree = "<group>"; };
+		FCBDA11B196A9D9800E3DAF5 /* BGMTitleScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMTitleScene.m; sourceTree = "<group>"; };
 		FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCBDA125196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Space Shooting Game PrototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +71,8 @@
 		FCBDA12E196A9D9800E3DAF5 /* My Space Shooting Game PrototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Space Shooting Game PrototypeTests-Info.plist"; sourceTree = "<group>"; };
 		FCBDA130196A9D9800E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCBDA132196A9D9800E3DAF5 /* My_Space_Shooting_Game_PrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Space_Shooting_Game_PrototypeTests.m; sourceTree = "<group>"; };
+		FCBDA13C196AA71200E3DAF5 /* BGMGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMGameScene.h; sourceTree = "<group>"; };
+		FCBDA13D196AA71200E3DAF5 /* BGMGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMGameScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +134,14 @@
 		FCBDA108196A9D9800E3DAF5 /* My Space Shooting Game Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				FCBDA140196AA75000E3DAF5 /* Nodes */,
+				FCBDA13F196AA73500E3DAF5 /* Scenes */,
 				FCBDA111196A9D9800E3DAF5 /* BGMAppDelegate.h */,
 				FCBDA112196A9D9800E3DAF5 /* BGMAppDelegate.m */,
 				FCBDA114196A9D9800E3DAF5 /* Main.storyboard */,
 				FCBDA117196A9D9800E3DAF5 /* BGMViewController.h */,
 				FCBDA118196A9D9800E3DAF5 /* BGMViewController.m */,
-				FCBDA11A196A9D9800E3DAF5 /* BGMMyScene.h */,
-				FCBDA11B196A9D9800E3DAF5 /* BGMMyScene.m */,
+				FC719903196BD2F0001F2F3B /* BGMPhysicsCategory.h */,
 				FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */,
 				FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */,
 				FCBDA109196A9D9800E3DAF5 /* Supporting Files */,
@@ -162,6 +176,30 @@
 				FCBDA12F196A9D9800E3DAF5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCBDA13F196AA73500E3DAF5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA11A196A9D9800E3DAF5 /* BGMTitleScene.h */,
+				FCBDA11B196A9D9800E3DAF5 /* BGMTitleScene.m */,
+				FCBDA13C196AA71200E3DAF5 /* BGMGameScene.h */,
+				FCBDA13D196AA71200E3DAF5 /* BGMGameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		FCBDA140196AA75000E3DAF5 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				FC7198FB196B8AA0001F2F3B /* BGMPlayerNode.h */,
+				FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */,
+				FC7198FE196BC3D8001F2F3B /* BGMPlayerBulletNode.h */,
+				FC7198FF196BC3D8001F2F3B /* BGMPlayerBulletNode.m */,
+				FC719904196BE558001F2F3B /* BGMEnemyNode.h */,
+				FC719905196BE558001F2F3B /* BGMEnemyNode.m */,
+			);
+			name = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBDA10F196A9D9800E3DAF5 /* main.m in Sources */,
-				FCBDA11C196A9D9800E3DAF5 /* BGMMyScene.m in Sources */,
+				FC7198FD196B8AA0001F2F3B /* BGMPlayerNode.m in Sources */,
+				FCBDA11C196A9D9800E3DAF5 /* BGMTitleScene.m in Sources */,
+				FC719906196BE558001F2F3B /* BGMEnemyNode.m in Sources */,
 				FCBDA113196A9D9800E3DAF5 /* BGMAppDelegate.m in Sources */,
+				FC719900196BC3D8001F2F3B /* BGMPlayerBulletNode.m in Sources */,
 				FCBDA119196A9D9800E3DAF5 /* BGMViewController.m in Sources */,
+				FCBDA13E196AA71200E3DAF5 /* BGMGameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +517,7 @@
 				FCBDA138196A9D9800E3DAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCBDA139196A9D9800E3DAF5 /* Build configuration list for PBXNativeTarget "My Space Shooting Game PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +526,7 @@
 				FCBDA13B196A9D9800E3DAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

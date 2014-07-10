@@ -9,12 +9,20 @@
 #import "BGMPlayerNode.h"
 #import "BGMPhysicsCategory.h"
 
+@interface BGMPlayerNode()
+
+@property float playerSize;
+
+@end
+
 @implementation BGMPlayerNode
 
 - (instancetype)init
 {
 	if (self = [super init])
 	{
+		self.playerSize = 30;
+		
 		[self initGraph];
 		[self initBody];
 	}
@@ -25,19 +33,19 @@
 {
 	SKLabelNode* playerCharacter = [SKLabelNode labelNodeWithFontNamed:@"Consolas"];
 	playerCharacter.text = @"主";
-	playerCharacter.fontSize = 30;
-	playerCharacter.position = CGPointMake(0, -15);
+	playerCharacter.fontSize = self.playerSize;
+	playerCharacter.position = CGPointMake(0, -self.playerSize / 2);
 	
 	[self addChild:playerCharacter];
 }
 
 - (void)initBody
 {
-	SKPhysicsBody* playerBody = [SKPhysicsBody bodyWithRectangleOfSize:CGSizeMake(30, 30)];
+	SKPhysicsBody* playerBody = [SKPhysicsBody bodyWithRectangleOfSize:CGSizeMake(self.playerSize, self.playerSize)];
 	playerBody.affectedByGravity = NO;
 	playerBody.categoryBitMask = PlayerCategory;
 	playerBody.contactTestBitMask = EnemyCategory | EnemyBulletCategory;
-	playerBody.collisionBitMask = EnemyCategory | EnemyBulletCategory;
+	playerBody.collisionBitMask = 0;
 	
 	self.physicsBody = playerBody;
 }

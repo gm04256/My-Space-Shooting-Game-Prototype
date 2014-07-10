@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC14425A196E38DC00BBC5DF /* BGMBackgroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC144259196E38DC00BBC5DF /* BGMBackgroundNode.m */; };
+		FC14425E196E3F7A00BBC5DF /* BGMStarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14425D196E3F7A00BBC5DF /* BGMStarNode.m */; };
+		FC144261196E460800BBC5DF /* BGMCircleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC144260196E460800BBC5DF /* BGMCircleNode.m */; };
 		FC7198FD196B8AA0001F2F3B /* BGMPlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */; };
 		FC719900196BC3D8001F2F3B /* BGMPlayerBulletNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7198FF196BC3D8001F2F3B /* BGMPlayerBulletNode.m */; };
 		FC719906196BE558001F2F3B /* BGMEnemyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC719905196BE558001F2F3B /* BGMEnemyNode.m */; };
@@ -41,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC144258196E38DC00BBC5DF /* BGMBackgroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMBackgroundNode.h; sourceTree = "<group>"; };
+		FC144259196E38DC00BBC5DF /* BGMBackgroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMBackgroundNode.m; sourceTree = "<group>"; };
+		FC14425C196E3F7A00BBC5DF /* BGMStarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMStarNode.h; sourceTree = "<group>"; };
+		FC14425D196E3F7A00BBC5DF /* BGMStarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMStarNode.m; sourceTree = "<group>"; };
+		FC14425F196E460800BBC5DF /* BGMCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMCircleNode.h; sourceTree = "<group>"; };
+		FC144260196E460800BBC5DF /* BGMCircleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMCircleNode.m; sourceTree = "<group>"; };
 		FC7198FB196B8AA0001F2F3B /* BGMPlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerNode.h; sourceTree = "<group>"; };
 		FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMPlayerNode.m; sourceTree = "<group>"; };
 		FC7198FE196BC3D8001F2F3B /* BGMPlayerBulletNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerBulletNode.h; sourceTree = "<group>"; };
@@ -100,6 +109,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC14425B196E391A00BBC5DF /* BackgroundNode */ = {
+			isa = PBXGroup;
+			children = (
+				FC144258196E38DC00BBC5DF /* BGMBackgroundNode.h */,
+				FC144259196E38DC00BBC5DF /* BGMBackgroundNode.m */,
+				FC14425C196E3F7A00BBC5DF /* BGMStarNode.h */,
+				FC14425D196E3F7A00BBC5DF /* BGMStarNode.m */,
+				FC14425F196E460800BBC5DF /* BGMCircleNode.h */,
+				FC144260196E460800BBC5DF /* BGMCircleNode.m */,
+			);
+			name = BackgroundNode;
+			sourceTree = "<group>";
+		};
 		FCBDA0F4196A9D9700E3DAF5 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +214,7 @@
 		FCBDA140196AA75000E3DAF5 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				FC14425B196E391A00BBC5DF /* BackgroundNode */,
 				FC7198FB196B8AA0001F2F3B /* BGMPlayerNode.h */,
 				FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */,
 				FC7198FE196BC3D8001F2F3B /* BGMPlayerBulletNode.h */,
@@ -302,12 +325,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBDA10F196A9D9800E3DAF5 /* main.m in Sources */,
+				FC14425A196E38DC00BBC5DF /* BGMBackgroundNode.m in Sources */,
 				FC7198FD196B8AA0001F2F3B /* BGMPlayerNode.m in Sources */,
+				FC144261196E460800BBC5DF /* BGMCircleNode.m in Sources */,
 				FCBDA11C196A9D9800E3DAF5 /* BGMTitleScene.m in Sources */,
 				FC719906196BE558001F2F3B /* BGMEnemyNode.m in Sources */,
 				FCBDA113196A9D9800E3DAF5 /* BGMAppDelegate.m in Sources */,
 				FC719900196BC3D8001F2F3B /* BGMPlayerBulletNode.m in Sources */,
 				FCBDA119196A9D9800E3DAF5 /* BGMViewController.m in Sources */,
+				FC14425E196E3F7A00BBC5DF /* BGMStarNode.m in Sources */,
 				FCBDA13E196AA71200E3DAF5 /* BGMGameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

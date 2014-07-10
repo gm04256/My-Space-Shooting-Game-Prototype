@@ -9,15 +9,17 @@
 #import <SpriteKit/SpriteKit.h>
 
 #import "BGMPlayerNode.h"
+#import "BGMBackgroundNode.h"
 
-@interface BGMGameScene : SKScene
+@interface BGMGameScene : SKScene<SKPhysicsContactDelegate>
 
 // nodes
 @property SKLabelNode* scoreLabel;
 @property SKLabelNode* lifeLabel;
 @property BGMPlayerNode* player;
 @property SKNode* enemies;
-@property SKNode* bullets;
+@property SKNode* playerBullets;
+@property BGMBackgroundNode* background;
 
 // status variables
 @property NSInteger life;
@@ -28,5 +30,6 @@
 
 // other variables
 @property NSTimer* autoShootTimer;
+@property NSTimer* generateEnemyTimer;
 
 @end

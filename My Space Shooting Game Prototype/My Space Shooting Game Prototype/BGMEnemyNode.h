@@ -10,4 +10,10 @@
 
 @interface BGMEnemyNode : SKNode
 
+@property NSInteger life;
+@property NSTimeInterval deadTime;
+
+- (void)hitten;
+- (void)die;
+
 @end

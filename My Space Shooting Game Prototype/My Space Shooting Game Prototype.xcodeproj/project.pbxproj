@@ -10,6 +10,7 @@
 		FC14425A196E38DC00BBC5DF /* BGMBackgroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC144259196E38DC00BBC5DF /* BGMBackgroundNode.m */; };
 		FC14425E196E3F7A00BBC5DF /* BGMStarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14425D196E3F7A00BBC5DF /* BGMStarNode.m */; };
 		FC144261196E460800BBC5DF /* BGMCircleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC144260196E460800BBC5DF /* BGMCircleNode.m */; };
+		FC144269196F957000BBC5DF /* SKNode+BGMClearChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = FC144268196F957000BBC5DF /* SKNode+BGMClearChildren.m */; };
 		FC7198FD196B8AA0001F2F3B /* BGMPlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */; };
 		FC719900196BC3D8001F2F3B /* BGMPlayerBulletNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7198FF196BC3D8001F2F3B /* BGMPlayerBulletNode.m */; };
 		FC719906196BE558001F2F3B /* BGMEnemyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC719905196BE558001F2F3B /* BGMEnemyNode.m */; };
@@ -50,6 +51,8 @@
 		FC14425D196E3F7A00BBC5DF /* BGMStarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMStarNode.m; sourceTree = "<group>"; };
 		FC14425F196E460800BBC5DF /* BGMCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMCircleNode.h; sourceTree = "<group>"; };
 		FC144260196E460800BBC5DF /* BGMCircleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMCircleNode.m; sourceTree = "<group>"; };
+		FC144267196F957000BBC5DF /* SKNode+BGMClearChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+BGMClearChildren.h"; sourceTree = "<group>"; };
+		FC144268196F957000BBC5DF /* SKNode+BGMClearChildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+BGMClearChildren.m"; sourceTree = "<group>"; };
 		FC7198FB196B8AA0001F2F3B /* BGMPlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerNode.h; sourceTree = "<group>"; };
 		FC7198FC196B8AA0001F2F3B /* BGMPlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMPlayerNode.m; sourceTree = "<group>"; };
 		FC7198FE196BC3D8001F2F3B /* BGMPlayerBulletNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMPlayerBulletNode.h; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 				FCBDA11D196A9D9800E3DAF5 /* Spaceship.png */,
 				FCBDA11F196A9D9800E3DAF5 /* Images.xcassets */,
 				FCBDA109196A9D9800E3DAF5 /* Supporting Files */,
+				FC144267196F957000BBC5DF /* SKNode+BGMClearChildren.h */,
+				FC144268196F957000BBC5DF /* SKNode+BGMClearChildren.m */,
 			);
 			path = "My Space Shooting Game Prototype";
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				FC7198FD196B8AA0001F2F3B /* BGMPlayerNode.m in Sources */,
 				FC144261196E460800BBC5DF /* BGMCircleNode.m in Sources */,
 				FCBDA11C196A9D9800E3DAF5 /* BGMTitleScene.m in Sources */,
+				FC144269196F957000BBC5DF /* SKNode+BGMClearChildren.m in Sources */,
 				FC719906196BE558001F2F3B /* BGMEnemyNode.m in Sources */,
 				FCBDA113196A9D9800E3DAF5 /* BGMAppDelegate.m in Sources */,
 				FC719900196BC3D8001F2F3B /* BGMPlayerBulletNode.m in Sources */,

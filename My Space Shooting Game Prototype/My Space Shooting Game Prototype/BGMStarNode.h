@@ -10,4 +10,8 @@
 
 @interface BGMStarNode : SKNode
 
+@property CGFloat radius;
+
+- (instancetype)initWithColor:(SKColor*)color andRadius:(CGFloat)radius andSpeed:(CGVector)speed;
+
 @end

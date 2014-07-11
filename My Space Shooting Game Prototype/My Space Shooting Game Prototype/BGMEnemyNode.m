@@ -57,7 +57,12 @@
 - (void)hitten
 {
 	self.life -= 1;
-	if (self.life <= 0)
+	if (self.life == 1)
+	{
+		SKLabelNode* enemyCharacter = (SKLabelNode*)[self childNodeWithName:@"enemyCharacter"];
+		enemyCharacter.text = @"傷";
+	}
+	else if (self.life <= 0)
 	{
 		[self die];
 	}

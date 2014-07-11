@@ -169,7 +169,10 @@
 		}
 	}
 	
-	[self.playerBullets removeChildrenInArray:bulletsWillBeDelete];
+	if ([bulletsWillBeDelete count] > 0)
+	{
+		[self.playerBullets removeChildrenInArray:bulletsWillBeDelete];
+	}
 }
 
 - (void)clearEnemies
@@ -188,7 +191,10 @@
 		}
 	}
 	
-	[self.enemies removeChildrenInArray:enemiesToRemove];
+	if([enemiesToRemove count] > 0)
+	{
+		[self.enemies removeChildrenInArray:enemiesToRemove];
+	}
 }
 
 #pragma mark - Physics Contact Delegate
@@ -202,14 +208,19 @@
 	{
 		// enemy hp -1
 		[((BGMEnemyNode*)(bodyB.node)) hitten];
-		[self.playerBullets removeChildrenInArray:@[bodyA.node]];
+		if (bodyA.node != nil)
+		{
+			[self.playerBullets removeChildrenInArray:@[bodyA.node]];
+		}
 	}
 	if (bodyB.categoryBitMask == PlayerBulletCategory)
 	{
 		// enemy hp -1
 		[((BGMEnemyNode*)(bodyA.node)) hitten];
-		[self.playerBullets removeChildrenInArray:@[bodyB.node]];
-		
+		if (bodyB.node != nil)
+		{
+			[self.playerBullets removeChildrenInArray:@[bodyB.node]];
+		}
 	}
 	
 	// player hits enemies

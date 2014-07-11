@@ -29,7 +29,7 @@
 	SKShapeNode* circleShape = [SKShapeNode node];
 	circleShape.name = @"circleShape";
 	circleShape.fillColor = color;
-	circleShape.strokeColor = color;
+	circleShape.strokeColor = [SKColor colorWithRed:0 green:0 blue:0 alpha:0];
 	circleShape.path = CGPathCreateWithEllipseInRect(CGRectMake(-radius, -radius, radius * 2, radius * 2), &CGAffineTransformIdentity);
 	
 	[self addChild:circleShape];
